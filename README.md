@@ -27,16 +27,41 @@ var totalExperienceYears = currentYear - 2010;
 getExperience(totalExperienceMonths, totalExperienceYears, 'totalExperience');
 
 //Instance 2
-var thinkZionExperienceMonths = currentMonth + 7;
+var thinkZionExperienceMonths = currentMonth + 6;
 var thinkZionExperienceYears = currentYear - 2017;
 getExperience(thinkZionExperienceMonths, thinkZionExperienceYears, 'thinkZionExperience');
 
 //Instance 3
-var contractorExperienceMonths = currentMonth + 1;
+var contractorExperienceMonths = currentMonth - 2;
 var contractorExperienceYears = currentYear - 2008;
 getExperience(contractorExperienceMonths, contractorExperienceYears, 'contractorExperience');
 ```
 
+Now you can simply add an id with the same name as the 3rd parameter i.e. 'totalExperience' to the element you wish to output the experience generated text to your website
+
+```
+//Instance 1
+<p id="totalExperience"></p>
+
+//Instance 2
+<div id="thinkZionExperience"></div>
+
+//Instance 3
+<span id="contractorExperience"></span>
+```
+
+This would replace the contents of the element with something like:
+
+```
+//Instance 1
+7 years and 6 months
+
+//Instance 2
+8 months
+
+//Instance 3
+9 years
+```
 
 ## Authors
 
