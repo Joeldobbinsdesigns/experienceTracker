@@ -13,15 +13,15 @@ Example 3:
 
 ## Getting Started
 
-Download the experienceTracker.es5.min.js and copy to the js folder within your site
-
 ### Installing
 
-Link the experienceTracker.es5.min.js JavaScript file towards the end of your body tag but before your main JavaScript custom scripts. If you do not have a main JavaScript custom scripts file, create one called main.es5.min.js
+Copy the jQuery CDN link add it towards the end of the body section
+
+Link the experienceTracker.es5.min.js JavaScript file towards the end of your body tag after the jQuery CDN script link but before your main JavaScript custom scripts. If you do not have a main JavaScript custom scripts file, create one called main.es5.min.js
 ```
 <body>
 ...
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/experienceTracker.es5.min.js"></script>
 <script src="js/main.es5.min.js"></script>
 </body>
