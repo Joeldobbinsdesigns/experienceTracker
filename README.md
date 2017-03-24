@@ -2,13 +2,22 @@
 
 Track months and years of a certain event, like LinkedIn, anywhere in your own site
 
+Example 1:
+"Hello! I have **7 years and 6 months** industry experience..."
+
+Example 2:
+"With **8 months** travelling the world..."
+
+Example 3:
+"**9 years** ago, I visited Sydney..."
+
 ## Getting Started
 
 Download the experienceTracker.es5.min.js and copy to the js folder within your site
 
 ### Installing
 
-Link the experienceTracker.es5.min.js JavaScript file towards the end of your body tag but before your main JavaScript custom scripts
+Link the experienceTracker.es5.min.js JavaScript file towards the end of your body tag but before your main JavaScript custom scripts. If you do not have a main JavaScript custom scripts file, create one called main.es5.min.js
 ```
 <body>
 ...
@@ -18,7 +27,7 @@ Link the experienceTracker.es5.min.js JavaScript file towards the end of your bo
 </body>
 ```
 
-Create an instance, or several instances. To set the month, add or subtract the currentMonth. Number ranges from 0 to 11. E.g. March is 3 months away from June so you would subtract 3. Similarly, to set the year, add or subtract the year, so if the start date was in 2010 then subtract by 2010 from currentYear
+In your main.es5.min.js, you can create one or multiple instances, all with individually set starting months and years. To set the month, add or subtract the currentMonth. Number ranges from 0 to 11. E.g. March is 3 months away from June so you would subtract 3. Similarly, to set the year, add or subtract the year, so if the start date was in 2010 then subtract by 2010 from currentYear
 
 ```
 //Instance 1
@@ -65,4 +74,5 @@ This would replace the contents of the element with something like:
 
 ## Authors
 
-* **Joel Dobbins** - *Initial work* - [Joeldobbinsdesigns](https://github.com/Joeldobbinsdesigns)
+* **Joel Dobbins** - *Github* - [Joeldobbinsdesigns](https://github.com/Joeldobbinsdesigns)
+[Portfolio Website](https://github.com/Joeldobbinsdesigns)
