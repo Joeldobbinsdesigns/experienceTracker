@@ -2,13 +2,13 @@
 
 Track months and years of a certain event, like LinkedIn, anywhere in your own site
 
-Example 1:
+Example 1:  
 "Hello! I have **7 years and 6 months** industry experience..."
 
-Example 2:
+Example 2:  
 "With **8 months** travelling the world..."
 
-Example 3:
+Example 3:  
 "**9 years** ago, I visited Sydney..."
 
 ## Getting Started
@@ -74,5 +74,6 @@ This would replace the contents of the element with something like:
 
 ## Authors
 
-* **Joel Dobbins** - *Github* - [Joeldobbinsdesigns](https://github.com/Joeldobbinsdesigns)
+* **Joel Dobbins**
+[Github](https://github.com/Joeldobbinsdesigns)
 [Portfolio Website](https://github.com/Joeldobbinsdesigns)
