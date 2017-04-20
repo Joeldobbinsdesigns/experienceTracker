@@ -44,6 +44,11 @@ function getExperience(monthsExperience, yearsExperience, totalExperience) {
         }
     }
 
+    //if no months or years
+    if (monthsExperience === 0 && yearsExperience === 0) {
+        experience = "0 months";
+    }
+
     $('#' + totalExperience).text(experience);
 }
 
