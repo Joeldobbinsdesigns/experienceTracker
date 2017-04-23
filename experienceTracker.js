@@ -45,7 +45,7 @@ function getExperience(monthsExperience, yearsExperience, totalExperience) {
 
     //if no months or years
     if (monthsExperience === 0 && yearsExperience === 0) {
-        experience = "1 months";
+        experience = "< 1 month";
     }
 
     $('#' + totalExperience).text(experience);
