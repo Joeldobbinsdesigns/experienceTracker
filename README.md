@@ -1,6 +1,6 @@
 # Experience Tracker 
 
-Track months and years of a certain event, like LinkedIn, anywhere in your own site
+Track months and years of a certain event, just like how LinkedIn does, anywhere in your own site
 
 Example 1:  
 "Hello! I have **7 years and 6 months** industry experience..."
@@ -15,19 +15,16 @@ Example 3:
 
 ### Installing
 
-Copy the jQuery CDN link add it towards the end of the body section
-
-Link the experienceTracker.es5.min.js JavaScript file towards the end of your body tag after the jQuery CDN script link but before your main JavaScript custom scripts. If you do not have a main JavaScript custom scripts file, create one called main.es5.min.js
+Link the experienceTracker.min.js JavaScript file towards the end of your body tag. If you do not have a main JavaScript custom scripts file, create one called main.min.js
 ```
 <body>
 ...
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="js/experienceTracker.es5.min.js"></script>
-<script src="js/main.es5.min.js"></script>
+<script src="js/experienceTracker.min.js"></script>
+<script src="js/main.min.js"></script>
 </body>
 ```
 
-In your main.es5.min.js, you can create one or multiple instances, all with individually set starting months and years. To set the month, add or subtract the currentMonth. Number ranges from 0 to 11. E.g. March is 3 months away from June so you would subtract 3. Similarly, to set the year, add or subtract the year, so if the start date was in 2010 then subtract by 2010 from currentYear
+In your main.min.js, you can create one or multiple instances, all with individually set starting months and years. To set the month, add or subtract the currentMonth. Number ranges from 0 to 11. E.g. March is 3 months away from June so you would subtract 3. Similarly, to set the year, add or subtract the year, so if the start date was in 2010 then subtract by 2010 from currentYear
 
 ```
 //Instance 1
@@ -72,8 +69,9 @@ This would replace the contents of the element with something like:
 9 years
 ```
 
-## Authors
+## Author
 
 * **Joel Dobbins**
 [Github](https://github.com/Joeldobbinsdesigns)
+ | 
 [Portfolio Website](https://github.com/Joeldobbinsdesigns)
